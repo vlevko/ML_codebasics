@@ -20,3 +20,11 @@ The *carprices.csv* file has car sell prices for 3 different models. First plot 
 * Predict price of a mercedez benz that is 4 yr old with mileage 45000
 * Predict price of a BMW X5 that is 7 yr old with mileage 86000
 * Tell the score (accuracy) of your model (hint: use LinearRegression().score())
+
+### 5. logistic regression
+Using the *HR_comma_sep.csv* file with employee retention dataset solve the following tasks:
+* Do some exploratory data analysis to figure out which variables have direct and clear impact on employee retention (i.e. whether they leave the company or continue to work)
+* Plot bar charts showing impact of employee salaries on retention
+* Plot bar charts showing corelation between department and employee retention
+* Now build logistic regression model using variables that were narrowed down in step 1
+* Measure the accuracy of the model
