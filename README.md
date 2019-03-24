@@ -35,7 +35,11 @@ Use *sklearn.datasets* iris flower dataset to train your model using logistic re
 * Sepal Width
 * Petal Length
 * Petal Width
+
 Using above 4 features you will clasify a flower in one of the three categories:
 * Setosa
 * Versicolour
 * Virginica
+
+### 7. decision tree
+Using the *titanic.csv* file with passengers dataset, specifically fields *Survived, Pclass, Sex, Age, Fare*, predict the survival rate based on specified features.
