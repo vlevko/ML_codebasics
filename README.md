@@ -22,9 +22,20 @@ The *carprices.csv* file has car sell prices for 3 different models. First plot 
 * Tell the score (accuracy) of your model (hint: use LinearRegression().score())
 
 ### 5. logistic regression
-Using the *HR_comma_sep.csv* file with employee retention dataset solve the following tasks:
+Using the *HR_comma_sep.csv* file downloaded from [Kaggle](https://www.kaggle.com/giripujar/hr-analytics) with employee retention dataset solve the following tasks:
 * Do some exploratory data analysis to figure out which variables have direct and clear impact on employee retention (i.e. whether they leave the company or continue to work)
 * Plot bar charts showing impact of employee salaries on retention
 * Plot bar charts showing corelation between department and employee retention
 * Now build logistic regression model using variables that were narrowed down in step 1
 * Measure the accuracy of the model
+
+### 6. multiclass logistic regression
+Use *sklearn.datasets* iris flower dataset to train your model using logistic regression. You need to figure out accuracy of your model and use that to predict different samples in your test dataset. In iris dataset there are 150 samples containing following features:
+* Sepal Length
+* Sepal Width
+* Petal Length
+* Petal Width
+Using above 4 features you will clasify a flower in one of the three categories:
+* Setosa
+* Versicolour
+* Virginica
