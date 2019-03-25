@@ -54,3 +54,10 @@ Train SVM classifier using sklearn digits dataset (i.e. *from sklearn.datasets i
 Use famous iris flower dataset from *sklearn.datasets* to predict flower species using random forest classifier.
 * Measure prediction score using default n_estimators (10)
 * Now fine tune your model by changing number of trees in your classifer and tell what best score you can get using how many trees
+
+### 10. k-fold cross-validation
+Use iris flower dataset from sklearn library and use cross_val_score against following models to measure the performance of each. In the end figure out the model with best performance.
+* Logistic Regression
+* Decision Tree
+* Support Vector Machine (SVM)
+* Random Forest
